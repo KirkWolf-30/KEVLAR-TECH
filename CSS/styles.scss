@@ -58,7 +58,11 @@ backdrop-filter: blur( 1px );
         text-decoration: none;
     }
 
-    .nav-link,.footerLink:hover{
+    .nav-link:hover{
+        color: $Ten;
+    }
+
+    .footerLink:hover{
         color: $Ten;
     }
 

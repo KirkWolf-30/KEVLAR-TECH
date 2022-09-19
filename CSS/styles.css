@@ -47,7 +47,11 @@ body .nav-link, body .footerLink {
   text-decoration: none;
 }
 
-body .nav-link, body .footerLink:hover {
+body .nav-link:hover {
+  color: #F2B43B;
+}
+
+body .footerLink:hover {
   color: #F2B43B;
 }
 
