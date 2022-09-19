@@ -1,0 +1,19 @@
+<svg width="106" height="106" viewBox="0 0 106 106" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g id="Go_Down">
+<g id="Ellipse 12" filter="url(#filter0_b_52_317)">
+<circle cx="53" cy="53" r="50" transform="rotate(-180 53 53)" fill="black" fill-opacity="0.06"/>
+<circle cx="53" cy="53" r="51.5" transform="rotate(-180 53 53)" stroke="white" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="30 30"/>
+</g>
+<g id="ant-design:arrow-down-outlined">
+<path id="Vector" d="M29.0742 56.1924L34.6113 56.1924C34.9258 56.1924 35.2266 56.0557 35.4385 55.8164L50.4024 38.5693V77.0625C50.4024 77.3633 50.6485 77.6094 50.9492 77.6094H55.0508C55.3516 77.6094 55.5977 77.3633 55.5977 77.0625V38.5693L70.5615 55.8164C70.7666 56.0557 71.0674 56.1924 71.3887 56.1924H76.9258C77.3906 56.1924 77.6436 55.6387 77.336 55.29L54.6475 29.1426C54.4424 28.906 54.1888 28.7162 53.904 28.5862C53.6192 28.4561 53.3097 28.3888 52.9966 28.3888C52.6835 28.3888 52.374 28.4561 52.0892 28.5862C51.8044 28.7162 51.5508 28.906 51.3457 29.1426L28.6641 55.29C28.3565 55.6455 28.6094 56.1924 29.0742 56.1924Z" fill="#F2B43B"/>
+</g>
+</g>
+<defs>
+<filter id="filter0_b_52_317" x="-19" y="-19" width="144" height="144" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+<feFlood flood-opacity="0" result="BackgroundImageFix"/>
+<feGaussianBlur in="BackgroundImage" stdDeviation="9.5"/>
+<feComposite in2="SourceAlpha" operator="in" result="effect1_backgroundBlur_52_317"/>
+<feBlend mode="normal" in="SourceGraphic" in2="effect1_backgroundBlur_52_317" result="shape"/>
+</filter>
+</defs>
+</svg>

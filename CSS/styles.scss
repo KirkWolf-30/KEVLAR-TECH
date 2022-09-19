@@ -1,0 +1,311 @@
+$unna : 'Unna', serif;
+$imprima:'Imprima', sans-serif;
+$Maitree:'Maitree', serif;
+
+$Sixty: #282828;
+$Thirty: #FFFFFF;
+$Ten: #F2B43B;
+
+$extras: #DADADA;
+$Filler: #252525;
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    width: 100%;
+    overflow-x: hidden;
+}
+
+body::-webkit-scrollbar{
+    display: none;
+}
+
+.display{
+color:  $Ten;
+text-decoration: none;
+cursor:text;
+}
+
+.display:hover{
+    color: $Ten;
+}
+
+section{
+    position: relative;
+}
+
+body{
+    background-color: $Sixty;
+    color: $Thirty;
+    scroll-behavior: smooth;
+
+
+.navbar{
+    background: #282828dc;
+backdrop-filter: blur( 1px );
+-webkit-backdrop-filter: blur( 1px );
+
+}
+
+    .nav-link, .footerLink{
+        color: $Thirty;
+        font-family: $imprima;
+        font-size: 16px !important;
+        text-decoration: none;
+    }
+
+    .nav-link,.footerLink:hover{
+        color: $Ten;
+    }
+
+
+    .footerHeader{
+        font-family: $imprima;
+        font-size: 32px;
+        font-style: italic;
+        color: $Ten;
+    }
+
+  
+
+  .hero{
+    background-image: url(../Images/BACKGROUND.svg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+
+.heroText{
+    font-family: $imprima;
+    font-size: 24px;
+}
+
+    h1{
+        font-family: $unna;
+        font-weight: 700;
+        font-size: 128px;
+    
+    }
+
+.btn{
+
+    border-top-left-radius: 25px;
+    border-bottom-right-radius: 25px;
+    background-color: $Ten;
+}
+
+.arrowbtn{
+
+    position:fixed;
+    right: 20px;
+    bottom: 20px;
+    z-index: 10;
+}
+
+.arrowbtn:hover{
+    animation: hoverAnime 3s ease-in-out infinite;
+}
+
+.number{
+    font-family: $unna;
+    font-size: 96px;
+    font-weight: 500;
+}
+
+.details{
+    font-size: 24px;
+}
+
+.header2{
+    font-family: $Maitree;
+    font-size: 64px;
+    font-weight: 500;
+}
+
+
+
+.depth{
+    font-size: 300px;
+    color: $Filler;
+    font-family: $unna;
+    font-style: italic;
+    font-weight: 500;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+
+    z-index: -10;
+}
+
+#Services{
+    background-image: url(../Images/BACKGROUND.svg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+}
+
+.Cardtitle{
+    font-family: $Maitree;
+    font-size: 24px;
+}
+
+.Carddetails{
+    font-family: $imprima;
+    font-size: 16px;
+}
+
+.TeamContainer{  
+    .teamMember{
+        margin-right: 2em;
+    }
+}
+
+.TeamContainer::-webkit-scrollbar{
+   background-color: $Sixty;
+}
+
+
+
+.Role{
+    font-family: $unna;
+    font-size: 32px;
+    font-weight: 700;
+}
+
+
+.name{
+    font-family: $imprima;
+    font-size: 20px ;
+}
+
+.contactTittle{
+    font-size: 200px;
+}
+
+input , textarea{
+    background: #28282896 !important;
+    backdrop-filter: blur( 1px );
+    -webkit-backdrop-filter: blur( 1px );
+    border: 1px solid #5F5F5F !important;
+    font-family: $imprima !important;
+    color: $Thirty !important;
+    font-size: 16px;
+}
+
+label{
+    font-family: $imprima !important;
+    color: $extras !important;
+    font-size: 16px;
+}
+
+.ContactBg{
+    position: absolute;
+    right: 0;
+  
+}
+
+.social{
+    position: absolute;
+    bottom: 0;
+    left: 10px;
+
+
+}
+
+.detailing{
+    display: flex;
+    align-items: center;
+    
+}
+
+h4.title{
+  font-family: $Maitree;
+  font-weight: 400; 
+  font-size: 24px; 
+}
+
+.more{
+    font-family: $imprima;
+    font-size: 15px;
+}
+
+}
+
+
+
+//Animations
+#Chart , #Earnings{
+  animation: Grow 3s ease-in-out;
+    
+}
+
+#Chart{
+    animation: Grow 3s ease-in-out;
+      
+  }
+
+@keyframes Grow {
+    0% {transform: scale(0);}
+    50% {transform: scale(1.2);}
+    100% {transform: scale(1);}
+  }
+
+  #Follower{
+    animation: move 3s ease-in-out infinite;
+      
+  }
+  #Context{
+    animation: move 3s ease-in-out 1.5s infinite;
+  }
+  
+  @keyframes move  {
+      0% {transform: translateY(0px)}
+      50% {transform: translateY(25px)}
+      100% {transform: translateY(0px)}
+    }
+
+    @keyframes hoverAnime  {
+        0% {transform: translateY(0px)}
+        50% {transform: translateY(25px)}
+        100% {transform: translateY(0px)}
+      }
+
+
+    @media screen and (max-width: 480px) {
+        body {
+            h1{
+                font-family: $unna;
+                font-weight: 700;
+                font-size: 64px;
+            }
+
+            
+.heroText{
+    font-family: $imprima;
+    font-size: 20px;
+}
+
+.details{
+    font-size: 20px;
+ 
+}
+
+.arrowbtn img{
+    width: 60px;
+    height: 60px;
+}
+
+.contactTittle{
+    font-size: 100px;
+}
+
+
+
+        }
+      }
+  

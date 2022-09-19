@@ -1,0 +1,343 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.container {
+  width: 100%;
+  overflow-x: hidden;
+}
+
+body::-webkit-scrollbar {
+  display: none;
+}
+
+.display {
+  color: #F2B43B;
+  text-decoration: none;
+  cursor: text;
+}
+
+.display:hover {
+  color: #F2B43B;
+}
+
+section {
+  position: relative;
+}
+
+body {
+  background-color: #282828;
+  color: #FFFFFF;
+  scroll-behavior: smooth;
+}
+
+body .navbar {
+  background: #282828dc;
+  backdrop-filter: blur(1px);
+  -webkit-backdrop-filter: blur(1px);
+}
+
+body .nav-link, body .footerLink {
+  color: #FFFFFF;
+  font-family: "Imprima", sans-serif;
+  font-size: 16px !important;
+  text-decoration: none;
+}
+
+body .nav-link, body .footerLink:hover {
+  color: #F2B43B;
+}
+
+body .footerHeader {
+  font-family: "Imprima", sans-serif;
+  font-size: 32px;
+  font-style: italic;
+  color: #F2B43B;
+}
+
+body .hero {
+  background-image: url(../Images/BACKGROUND.svg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+body .heroText {
+  font-family: "Imprima", sans-serif;
+  font-size: 24px;
+}
+
+body h1 {
+  font-family: "Unna", serif;
+  font-weight: 700;
+  font-size: 128px;
+}
+
+body .btn {
+  border-top-left-radius: 25px;
+  border-bottom-right-radius: 25px;
+  background-color: #F2B43B;
+}
+
+body .arrowbtn {
+  position: fixed;
+  right: 20px;
+  bottom: 20px;
+  z-index: 10;
+}
+
+body .arrowbtn:hover {
+  -webkit-animation: hoverAnime 3s ease-in-out infinite;
+          animation: hoverAnime 3s ease-in-out infinite;
+}
+
+body .number {
+  font-family: "Unna", serif;
+  font-size: 96px;
+  font-weight: 500;
+}
+
+body .details {
+  font-size: 24px;
+}
+
+body .header2 {
+  font-family: "Maitree", serif;
+  font-size: 64px;
+  font-weight: 500;
+}
+
+body .depth {
+  font-size: 300px;
+  color: #252525;
+  font-family: "Unna", serif;
+  font-style: italic;
+  font-weight: 500;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  z-index: -10;
+}
+
+body #Services {
+  background-image: url(../Images/BACKGROUND.svg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+body .Cardtitle {
+  font-family: "Maitree", serif;
+  font-size: 24px;
+}
+
+body .Carddetails {
+  font-family: "Imprima", sans-serif;
+  font-size: 16px;
+}
+
+body .TeamContainer .teamMember {
+  margin-right: 2em;
+}
+
+body .TeamContainer::-webkit-scrollbar {
+  background-color: #282828;
+}
+
+body .Role {
+  font-family: "Unna", serif;
+  font-size: 32px;
+  font-weight: 700;
+}
+
+body .name {
+  font-family: "Imprima", sans-serif;
+  font-size: 20px;
+}
+
+body .contactTittle {
+  font-size: 200px;
+}
+
+body input, body textarea {
+  background: #28282896 !important;
+  backdrop-filter: blur(1px);
+  -webkit-backdrop-filter: blur(1px);
+  border: 1px solid #5F5F5F !important;
+  font-family: "Imprima", sans-serif !important;
+  color: #FFFFFF !important;
+  font-size: 16px;
+}
+
+body label {
+  font-family: "Imprima", sans-serif !important;
+  color: #DADADA !important;
+  font-size: 16px;
+}
+
+body .ContactBg {
+  position: absolute;
+  right: 0;
+}
+
+body .social {
+  position: absolute;
+  bottom: 0;
+  left: 10px;
+}
+
+body .detailing {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+body h4.title {
+  font-family: "Maitree", serif;
+  font-weight: 400;
+  font-size: 24px;
+}
+
+body .more {
+  font-family: "Imprima", sans-serif;
+  font-size: 15px;
+}
+
+#Chart, #Earnings {
+  -webkit-animation: Grow 3s ease-in-out;
+          animation: Grow 3s ease-in-out;
+}
+
+#Chart {
+  -webkit-animation: Grow 3s ease-in-out;
+          animation: Grow 3s ease-in-out;
+}
+
+@-webkit-keyframes Grow {
+  0% {
+    -webkit-transform: scale(0);
+            transform: scale(0);
+  }
+  50% {
+    -webkit-transform: scale(1.2);
+            transform: scale(1.2);
+  }
+  100% {
+    -webkit-transform: scale(1);
+            transform: scale(1);
+  }
+}
+
+@keyframes Grow {
+  0% {
+    -webkit-transform: scale(0);
+            transform: scale(0);
+  }
+  50% {
+    -webkit-transform: scale(1.2);
+            transform: scale(1.2);
+  }
+  100% {
+    -webkit-transform: scale(1);
+            transform: scale(1);
+  }
+}
+
+#Follower {
+  -webkit-animation: move 3s ease-in-out infinite;
+          animation: move 3s ease-in-out infinite;
+}
+
+#Context {
+  -webkit-animation: move 3s ease-in-out 1.5s infinite;
+          animation: move 3s ease-in-out 1.5s infinite;
+}
+
+@-webkit-keyframes move {
+  0% {
+    -webkit-transform: translateY(0px);
+            transform: translateY(0px);
+  }
+  50% {
+    -webkit-transform: translateY(25px);
+            transform: translateY(25px);
+  }
+  100% {
+    -webkit-transform: translateY(0px);
+            transform: translateY(0px);
+  }
+}
+
+@keyframes move {
+  0% {
+    -webkit-transform: translateY(0px);
+            transform: translateY(0px);
+  }
+  50% {
+    -webkit-transform: translateY(25px);
+            transform: translateY(25px);
+  }
+  100% {
+    -webkit-transform: translateY(0px);
+            transform: translateY(0px);
+  }
+}
+
+@-webkit-keyframes hoverAnime {
+  0% {
+    -webkit-transform: translateY(0px);
+            transform: translateY(0px);
+  }
+  50% {
+    -webkit-transform: translateY(25px);
+            transform: translateY(25px);
+  }
+  100% {
+    -webkit-transform: translateY(0px);
+            transform: translateY(0px);
+  }
+}
+
+@keyframes hoverAnime {
+  0% {
+    -webkit-transform: translateY(0px);
+            transform: translateY(0px);
+  }
+  50% {
+    -webkit-transform: translateY(25px);
+            transform: translateY(25px);
+  }
+  100% {
+    -webkit-transform: translateY(0px);
+            transform: translateY(0px);
+  }
+}
+
+@media screen and (max-width: 480px) {
+  body h1 {
+    font-family: "Unna", serif;
+    font-weight: 700;
+    font-size: 64px;
+  }
+  body .heroText {
+    font-family: "Imprima", sans-serif;
+    font-size: 20px;
+  }
+  body .details {
+    font-size: 20px;
+  }
+  body .arrowbtn img {
+    width: 60px;
+    height: 60px;
+  }
+  body .contactTittle {
+    font-size: 100px;
+  }
+}
+/*# sourceMappingURL=styles.css.map */
